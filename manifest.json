@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Page auto refresher",
+  "description": "will refresh the page until the url has change or text match no longer found",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs", 
+    "webNavigation", 
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/",
+    "https://*/"
+  ]
+}
